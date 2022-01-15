@@ -1,0 +1,105 @@
+body{
+display: grid;
+justify-content: center;
+}
+header{
+background-color: #2f6fd6
+!important;
+min-width: 60vw;
+padding: 20px 20px;
+}
+header h1 a{
+color: white;
+text-decoration: none;
+}
+.pg-main-content{
+min-height: 60vh;
+}
+footer{
+background-color: black;
+color: white
+width: 65vw;
+padding: 15px 20px;
+}
+footer p{
+color: white;
+}
+
+/*login form*/
+.logform{
+margin-top: 40px;
+}
+.form-control{
+display: flex;
+justify-content: center;
+margin: 5px 0;
+width: 100%;
+}
+.logform label{
+width: 200px;
+}
+.logform input[type=text],.logform input[type=email],.logform textarea,.logform input[type=password]{
+width: 400px;
+}
+.logform input[type=submit],.logform input[type=reset]{
+width: 300px;
+padding: 8px 0;
+margin: 2px;
+color: white;
+border:none;
+background-color: #2f6fd6;
+cursor: pointer;
+}
+.logform input[type=reset]{
+background-color: red;
+}
+.draftb{
+  background-color: #6259ee !important;
+}
+.buttons{
+margin-top: 20px;
+}
+.login{
+border-bottom: 1px solid black;
+text-align: center;
+}
+.login h1{
+color: #2f6fd6;
+font-size: 18px;
+padding:50px 0 10px 0;
+}
+
+.primary-nav{
+background-color: #3e4747;
+padding: 10px 0;
+
+}
+nav a{
+color: white ;
+text-decoration: none;
+padding:0 30px;
+}
+nav a:hover{
+color: yellow;
+}
+table tr th{
+text-align: left;
+text-transform: uppercase;
+}
+table {
+width:50vw;
+margin:10px auto;
+}
+table tr td,table tr th{
+padding:7px 10px;
+width:33.3%;
+}
+.compose input[type=submit],.compose input[type=reset]{
+   width: 200px;
+  }
+  .msgbox{
+  	padding: 10px 40px;
+  }
+ .msgtxt{
+ 	width: 300px;
+ }
